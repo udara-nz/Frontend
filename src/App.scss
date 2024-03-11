@@ -1,0 +1,158 @@
+
+$primary: #f8bf02;
+
+$border-radius: 25px;
+
+$btn-color: blue;
+
+
+.asd {
+    margin-top: 200px;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    margin: 0;
+    height: 100%;
+    font-family: 'open Sans', sans-serif;
+}
+
+.dashboard-wrap{
+    margin-top: 20px;
+    height: 100%;
+    margin-right: 40px;
+    padding-left: 40px;
+}
+
+.row{
+    display: flex;
+    height: 100%;
+}
+
+.side-bar{
+    margin-top: 20px;
+    width: 20%;
+    height: 100%;
+    padding: 0 15px;
+}
+
+.main-content>li>a:hover{
+    background-color: rgb(108, 108, 96);
+    width: 80%;
+    height: 100%;
+    font-weight: 800;
+}
+
+.side-bar-menu{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.side-bar-menu>li>a {
+    display: block;
+    text-decoration: none;
+    color: rgb(62, 81, 99);
+    padding: 10px 25px;
+}
+
+.side-bar-menu>li>a:hover{
+    background-color: bisque;
+    columns: rgb(78, 78, 123);
+    font-weight: 1000;
+}
+
+.top-menu{
+    background-color: azure;
+    padding: 5px 15px;
+}
+
+.top-menu-list{
+    list-style-type: none;
+    padding-left: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.top-menu-list>li>a {
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(74, 76, 78);
+    padding: 5px 15px;
+    font-weight: 500;
+}
+
+.top-menu-list>li>a:hover{
+    background-color: bisque;
+    columns: rgb(78, 78, 123);
+    font-weight: 500;
+}
+
+.mar{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.login-box{
+    margin-top: 100px;
+    margin-left: 500px; 
+    margin-right: 500px; 
+    
+}
+
+.admin{
+    margin-top: 150px;
+    margin-left: 0px; 
+    margin-right: 0px; 
+    align-content: center;
+}
+
+.upage{
+    text-align: center;
+    margin-top: 20px;
+    text-shadow: #f8bf02;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #7c4918;
+}
+
+.cat{
+    margin-left: 30px;
+    margin-top: 20px;
+    text-shadow: #f8bf02;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #7c4918;
+}
+
+.categoryA{
+    margin-top: 30px;
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+.submit{
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 1000px;
+}
+
+@media print {
+    body * {
+      visibility: hidden;
+    }
+  
+    .print-section, .print-section * {
+      visibility: visible;
+    }
+  
+    .print-section {
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+  }
+  
+
+/* Importing Bootstrap Customizable SCSS */
+@import '~bootstrap/scss/bootstrap';
